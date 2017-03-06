@@ -26,6 +26,11 @@ Rogue A.I.'s military strength.
 * Whenever a player damages the Rogue A.I., that player must click the center message screen and unveil a random event.
 * Rogue A.I. can only lose cards by the random events displayed.
 
+## TODO
+* Graphics. I am not a graphic artist. If you are interested in adding some visual polish drop me a message!
+* Settings activity
+* Rules activity
+
 ## Credits
 
 Author: Andrew Osborne
