@@ -18,6 +18,7 @@ It features:
 
 * Any red card revealed either during setup or during play is placed in front of the Brainworld and is now a part of the 
 Rogue A.I.'s military strength.
+* All human players share their health
 * Rogue A.I.'s defense is equal to the Brainworld's defense.
 * Rogue A.I.'s attack is equal to the combined attack of all cards in its possession.
 * Whenever a player damages the Rogue A.I., that player must click the center message screen and unveil a random event.
