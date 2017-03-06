@@ -1,4 +1,4 @@
-## Rogue A.I. Unofficial Star Realms Expansion for Android
+## Rogue A.I. - An Unofficial Star Realms Expansion for Android
 
 This app adds a new mode to the deck building game Star Realms by White Wizard Games (http://www.whitewizardgames.com/) featuring 
 an enemy player controlled by the app.
