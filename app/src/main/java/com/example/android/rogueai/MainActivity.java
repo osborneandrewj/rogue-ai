@@ -17,7 +17,7 @@ import android.widget.TextView;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * App created by Andy Osborne March 2017
+ * App created by Andrew Osborne March 2017
  *
  *      This is an expansion to the fantastic deck building card game Star Realms by White Wizard
  * Games ( http://www.whitewizardgames.com/ ) that my son and I love to play.
