@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.rogueai.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/view_rogue"
+        android:background="@drawable/borg_green"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/circuit_banner_bottom" />
+
+        <TextView
+            android:id="@+id/tv_rogue_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/colorRogueText"
+            android:textSize="70sp"
+            android:textAppearance="?android:textAppearanceLarge"
+            tools:text="99" />
+
+        <LinearLayout
+            android:id="@+id/view_rogue_heal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/tv_rogue_health">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:src="@drawable/heal_button_heart_cutout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/message_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorMessageScreen"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:textSize="24sp"
+                android:textColor="@color/colorMessageScreenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Hacked! Message..."/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_player"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/space_background"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_player_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-medium"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorPlayerText"
+            android:textSize="70sp"
+            tools:text="99" />
+
+        <LinearLayout
+            android:id="@+id/view_player_heal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/tv_player_health">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:src="@drawable/heal_button_heart_cutout" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_restart"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_player_health"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_restart"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/button_restart"
+            android:scaleType="centerCrop"
+            android:src="@drawable/circuit_banner_bottom" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

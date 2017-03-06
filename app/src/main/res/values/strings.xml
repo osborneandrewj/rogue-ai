@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rogue A.I.</string>
+
+    <string name="rogue_ai_name">Rogue A.I.</string>
+
+    <string name="dead">DEAD</string>
+
+    <string name="btn_restart">Restart Game</string>
+    <string name="action_restart">Restart Game</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Random events-->
+    <string name="event_one">Hacked! Your heal action damages YOU this turn. </string>
+    <string name="event_two">You have been damaged!</string>
+    <string name="event_three">You discover a security flaw. Rogue A.I. damaged!</string>
+    <string name="event_four">Rogue A.I. loses the least valuable ship.</string>
+    <string name="event_five">Communications channel breached! Next player discards 1 card. </string>
+
+    <!--Win/lose messages-->
+    <string name="rogue_wins_message">You and everyone you know have been assimilated.</string>
+    <string name="player_wins_message">You defeated the A.I.! The human race thanks you.</string>
+</resources>

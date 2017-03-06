@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03190c</color>
+    <color name="colorPrimaryDark">#548660</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorRogueBackground">#222222</color>
+    <color name="colorRogueText">#35ff35</color>
+
+    <color name="colorMessageScreen">#03190c</color>
+    <color name="colorMessageScreenText">#35FF35</color>
+
+    <color name="colorPlayerBackgroundPurple">#333474</color>
+    <color name="colorPlayerBackground">#2696d5</color>
+    <color name="colorPlayerText">#2196f3</color>
+
+    <color name="color_circuits">#6b9B73</color>
+</resources>
